@@ -1,0 +1,17 @@
+{
+  "name": "screenshot-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "node ./run_local.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "dotenv": "^6.2.0",
+    "chrome-aws-lambda": "1.11.2",
+    "puppeteer": "1.11.0"
+  },
+  "author": "Phil Alsford",
+  "license": "MIT"
+}
